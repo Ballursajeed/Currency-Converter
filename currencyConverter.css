@@ -1,0 +1,85 @@
+*{
+margin:0px;
+padding:0px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ margin-top: 140px;
+ background-image: url(https://github.com/Ballursajeed/Currency-Converter/blob/main/Currency.jpeg?raw=true);
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+
+.container{
+ display: flex;
+ justify-content: center; 
+ align-items: center;
+ flex-direction: column;
+ background-color: rgba(0,0,0,0.7);
+ height: 500px;
+ width: 500px;
+ border-radius: 20px;
+}
+
+h1 {
+    color: white;
+    margin-bottom: 20px;
+}
+
+p {
+      color: white;
+        margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-top: 10px;
+}
+
+label {
+    margin-bottom: 5px;
+    color:white;
+}
+
+select, input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+    text-align: center;
+}
+#amount{
+  width: 280px;	
+  margin-bottom: 20px;
+}
+#result{
+ color: white;
+}
