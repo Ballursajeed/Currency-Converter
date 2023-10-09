@@ -8,6 +8,7 @@ body {
  display: flex;
  justify-content: center; 
  align-items: center;
+ height: 100vh;
  margin-top: 140px;
  background-image: url(https://github.com/Ballursajeed/Currency-Converter/blob/main/Currency.jpeg?raw=true);
    background-size: cover;
